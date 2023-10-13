@@ -10,7 +10,7 @@ namespace StringReplacement
     {
         static void Main(string[] args)
         {           
-            string word = "??c???er";
+            string word = "h?c???er";
             string substr = "deciph";
             string result = getSmallestString(word, substr);
 
@@ -41,7 +41,7 @@ namespace StringReplacement
                 {
                     if (cword[j] == csub[z])
                     {
-                        Array.Clear(cword, index[0], index.Count + 1);
+                        Array.Clear(cword, cword[index[0]], index.Count + 1);
                         Array.Copy(csub, cword, index.Count + 1);
                         result = new string(cword);
                         //todo break ten sonra for dan direkt çıkması lazım

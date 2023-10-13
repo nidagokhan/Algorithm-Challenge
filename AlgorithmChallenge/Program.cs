@@ -19,7 +19,7 @@ namespace AlgorithmChallenge
             }
             Console.ReadKey();
         }
-
+         //todo cross join ile dene
         public static List<long> countMinimumOperations(List<int> price, List<int> query)
         {
             int result = 0;
@@ -29,7 +29,8 @@ namespace AlgorithmChallenge
             {
                 foreach (int item in price)
                 {
-                    result += Math.Abs(query[i] - item);
+                    //result += Math.Abs(query[i] - item);
+                    result += -1*(query[i] - item);
                 }
 
                 list.Add(result);
