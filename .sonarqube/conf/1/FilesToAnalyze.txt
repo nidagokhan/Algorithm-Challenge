@@ -1,0 +1,3 @@
+﻿C:\Users\nidag\source\repos\ConsoleApp6\StringReplacement\Program.cs
+C:\Users\nidag\source\repos\ConsoleApp6\StringReplacement\Properties\AssemblyInfo.cs
+C:\Users\nidag\source\repos\ConsoleApp6\StringReplacement\App.config

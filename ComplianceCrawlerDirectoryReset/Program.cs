@@ -22,19 +22,18 @@ namespace ComplianceCrawlerDirectoryReset
             int adim = 0;
             for (int i = 0; i < loggedMoves.Count; i++)
             {
-                if (loggedMoves[i] == "../")
+                switch (loggedMoves[i])
                 {
-                    adim--;
+                    case "../":
+                        adim--;
+                        break;
+                    case "./":
+                        break;
+                    default:
+                        adim++;
+                        break;
                 }
-                else if (loggedMoves[i] =="./")
-                {
-                    adim = adim;
-                }
-                else
-                {
-                    adim++;
-                }
-            }
+            }          
             return adim;
         }
     }

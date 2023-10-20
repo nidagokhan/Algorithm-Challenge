@@ -1,0 +1,3 @@
+﻿C:\Users\nidag\source\repos\ConsoleApp6\ConsoleApp6\Program.cs
+C:\Users\nidag\source\repos\ConsoleApp6\ConsoleApp6\Properties\AssemblyInfo.cs
+C:\Users\nidag\source\repos\ConsoleApp6\ConsoleApp6\App.config

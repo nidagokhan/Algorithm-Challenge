@@ -1,0 +1,3 @@
+﻿C:\Users\nidag\source\repos\ConsoleApp6\AlgorithmChallenge\Program.cs
+C:\Users\nidag\source\repos\ConsoleApp6\AlgorithmChallenge\Properties\AssemblyInfo.cs
+C:\Users\nidag\source\repos\ConsoleApp6\AlgorithmChallenge\App.config
